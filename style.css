@@ -1,0 +1,151 @@
+body {
+    background-color: #E5E1DA;
+    margin: 0px;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.search {
+    width: 800px;
+    background-color: #C5D3E8;
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.button {
+    height: 30px;
+    /* background-color: ; */
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 10px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+#imagescroll {
+    position: relative;
+
+    margin-top: 20px;
+}
+
+#left {
+    height: 100px;
+    width: 20px;
+    position: relative;
+    bottom: 130px;
+    left: 20px;
+    opacity: 0.2;
+    border-radius: 5px;
+    border: 0px;
+
+}
+
+#right {
+    height: 100px;
+    width: 20px;
+    position: relative;
+    bottom: 130px;
+    right: 20px;
+    opacity: 0.2;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#img {
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.small {
+    width: 150px;
+    height: 200px;
+}
+
+.clicks {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background-color: white;
+    margin-top: 10px;
+    position: relative;
+    width: 60%;
+    left: 20%;
+
+}
+
+.left19 {
+    position: relative;
+    margin-top: 10px;
+}
+
+.img3 {
+    display: flex;
+    justify-content: center;
+}
+
+.essentials {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img5 {
+    height: 250px;
+    width: 250px;
+    
+}
+
+.button1 {
+    border: 1px solid grey;
+    margin: 5px;
+}
+
+.bigbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 250px;
+    justify-content: center;
+    
+}
+/* 
+.boxbuy {
+    height: 400px;
+    width: 400px;
+} */
+
+.footer {
+    background-color: #3C3D37;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footertext {
+    color: white;
+
+
+}
